@@ -61,7 +61,7 @@ public class Conductor {
         this.calcularValoracionMedia();
     }
 
-    public double calcularValoracionMedia(){
+    private double calcularValoracionMedia(){
         this.valoracionMedia = this.valoraciones.stream().mapToDouble(v -> v).average().orElse(0.0);
         return this.valoracionMedia;
     }

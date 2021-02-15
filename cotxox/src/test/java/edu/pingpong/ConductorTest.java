@@ -30,14 +30,14 @@ public class ConductorTest {
         conductor.setMatricula("1287478127893789123");
         assertEquals("1287478127893789123", conductor.getMatricula());
     }
-    @Test
-    public void calcularValoracionMediaTest(){
-        conductor.setValoracion((byte) 5);
-        assertEquals(5d, conductor.calcularValoracionMedia(), 0.1);
-        conductor.setValoracion((byte) 0);
-        assertEquals(2.5, conductor.calcularValoracionMedia(), 0.1);
-    }
-
+    /**@Test
+     * public void calcularValoracionMediaTest(){
+     *  conductor.setValoracion((byte) 5);
+     *    assertEquals(5d, conductor.calcularValoracionMedia(), 0.1);
+     *    conductor.setValoracion((byte) 0);
+     *    assertEquals(2.5, conductor.calcularValoracionMedia(), 0.1);
+     *}
+     */
 }
 
 

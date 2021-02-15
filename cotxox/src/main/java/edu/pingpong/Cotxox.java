@@ -37,7 +37,7 @@ public class Cotxox {
         System.out.println("To: " + carrera.getDestino());
         System.out.println("Distance: " + carrera.getDistancia());
         System.out.println("Total: " + carrera.getCosteEsperado() + "€");
-/*
+
         System.out.println("\n#####" + "\t Get a ride: Driver: \t" + "#####\n");
 
         /**
@@ -45,7 +45,7 @@ public class Cotxox {
          * para ofrecer el servicio.
          * La flota es un objeto de tipo PoolConductores.
          */
-/*
+
         List<Conductor> poolConductores = new ArrayList<Conductor>();
         Conductor conductor = null;
 
@@ -74,7 +74,7 @@ public class Cotxox {
         PoolConductores conductores = new PoolConductores(poolConductores);
 
         /* Seleccion del conductor en la flota y asignacion a la carrera */
-/*
+
         carrera.asignarConductor(conductores);
 
         // Info por pantalla
@@ -111,7 +111,7 @@ public class Cotxox {
         carrera.getConductor().setValoracion((byte) 5);
 
         System.out.println("Driver: " + carrera.getConductor().getNombre());
-        System.out.println("Stars: " + carrera.getConductor().getValoracion())
-        */
+        System.out.println("Stars: " + carrera.getConductor().getValoracion());
+
     }
 }
